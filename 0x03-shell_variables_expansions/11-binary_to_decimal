@@ -1,0 +1,2 @@
+#!/bin/bash
+binary_value="$BINARY"decimal_value=$(echo "ibase=2 $binary_value" | )echo "$decimal_value"
