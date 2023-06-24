@@ -1,2 +1,3 @@
 #!/bin/bash
-num_value="$NUM"formatted_number=$(printf "%.2f" "$num_value")echo "$formatted_number"
+printf "%.2f" $NUM | sort
+
