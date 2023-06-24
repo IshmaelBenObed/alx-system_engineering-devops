@@ -1,3 +1,2 @@
 #!/bin/bash
-letters=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z") for letter1 in "${letters[@]}"dofor letter2 in "${letters[@]}" docombination="$letter1$letter2"if [ "$combination" = "oo" ] thenecho "$combination" fi
- 
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" 
