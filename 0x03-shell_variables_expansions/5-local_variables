@@ -1,14 +1,2 @@
 #!/bin/bash
-echo "Local variables:"
-echo "================"
-local_variables=$(set -o posix ; set)
-echo "$local_variables"
-echo
-echo "Environment variables:"
-echo "======================"
-env
-echo
-echo "Functions:"
-echo "=========="
-functions=$(declare -F)
-echo "$functions"
+set
